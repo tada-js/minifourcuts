@@ -1,4 +1,10 @@
-import { MainLayoutStyle, WraaperBoxStyle } from '@styles/LayoutStyle';
+import {
+  FooterDateStyle,
+  FooterStyle,
+  FooterTitleStyle,
+  MainLayoutStyle,
+  WraaperBoxStyle,
+} from '@styles/LayoutStyle';
 import Photo from '@components/Photo';
 
 const Layout = () => {
@@ -6,6 +12,10 @@ const Layout = () => {
     <MainLayoutStyle>
       <WraaperBoxStyle>
         <Photo />
+        <FooterStyle>
+          <FooterTitleStyle>🎵Happy Poto Time🎵</FooterTitleStyle>
+          <FooterDateStyle>📸2023.2.08📸</FooterDateStyle>
+        </FooterStyle>
       </WraaperBoxStyle>
     </MainLayoutStyle>
   );

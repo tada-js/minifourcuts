@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const MainLayoutStyle = styled.main`
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,7 +10,6 @@ export const MainLayoutStyle = styled.main`
 export const WraaperBoxStyle = styled.div`
   max-width: 390px;
   width: 100%;
-  height: 844px;
   box-shadow: 3px 3px rgba(155, 155, 155, 0.1), -4px 0 10px rgba(0, 0, 0, 0.2);
   background-color: #6b88aa;
 `;
@@ -30,3 +28,23 @@ export const PhotoFrameStyle = styled.div`
 `;
 
 export const PhotoImageStyle = styled.img``;
+
+export const FooterStyle = styled.footer`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const FooterTitleStyle = styled.p`
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 9000;
+  color: white;
+`;
+
+export const FooterDateStyle = styled.time`
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+`;
