@@ -6,7 +6,7 @@ export const PhotosStyle = styled.div`
 
 export const PhotoFrameStyle = styled.div`
   position: relative;
-  background-color: white;
+  background-color: var(--main-white-color);
   margin: 15px 20px;
   height: 200px;
   background-size: cover;
@@ -18,8 +18,8 @@ export const PhotoImageStyle = styled.img``;
 
 export const PhotoDescriptionStyle = styled.span`
   width: fit-content;
-  background-color: #333;
-  color: white;
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
   padding: 0 20px;
   margin-bottom: 5px;
   border-radius: 10px;

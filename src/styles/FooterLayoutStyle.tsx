@@ -10,12 +10,12 @@ export const FooterTitleStyle = styled.p`
   padding: 20px;
   font-size: 25px;
   font-weight: 9000;
-  color: white;
+  color: var(--main-white-color);
 `;
 
 export const FooterDateStyle = styled.time`
   padding: 20px;
   font-size: 15px;
   font-weight: 500;
-  color: white;
+  color: var(--main-white-color);
 `;
