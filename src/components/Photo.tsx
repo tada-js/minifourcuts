@@ -1,4 +1,5 @@
 import {
+  PhotoDescriptionStyle,
   PhotoFrameStyle,
   PhotoImageStyle,
   PhotosStyle,
@@ -13,15 +14,19 @@ const Photo = () => {
     <PhotosStyle>
       <PhotoFrameStyle>
         <PhotoImageStyle src={firstImg} alt="첫 번째 이미지" />
+        <PhotoDescriptionStyle>첫 번째 이미지 설명</PhotoDescriptionStyle>
       </PhotoFrameStyle>
       <PhotoFrameStyle>
         <PhotoImageStyle src={secondImg} alt="두 번째 이미지" />
+        <PhotoDescriptionStyle>두 번째 이미지 설명</PhotoDescriptionStyle>
       </PhotoFrameStyle>
       <PhotoFrameStyle>
         <PhotoImageStyle src={thirdImg} alt="세 번째 이미지" />
+        <PhotoDescriptionStyle>세 번째 이미지 설명</PhotoDescriptionStyle>
       </PhotoFrameStyle>
       <PhotoFrameStyle>
         <PhotoImageStyle src={fourthImg} alt="네 번째 이미지" />
+        <PhotoDescriptionStyle>네 번째 이미지 설명</PhotoDescriptionStyle>
       </PhotoFrameStyle>
     </PhotosStyle>
   );
