@@ -77,6 +77,11 @@ const GlobalStyle = createGlobalStyle`
   font-style: normal;
   }
 
+  :root {
+    --main-black-color: #333333;
+    --sub-black-color: #444444;
+    --main-white-color: #FFFFFF;
+  }
 `;
 
 export default GlobalStyle;
