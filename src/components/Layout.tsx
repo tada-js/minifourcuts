@@ -1,21 +1,13 @@
-import {
-  FooterDateStyle,
-  FooterStyle,
-  FooterTitleStyle,
-  MainLayoutStyle,
-  WraaperBoxStyle,
-} from '@styles/LayoutStyle';
+import { MainLayoutStyle, WraaperBoxStyle } from '@styles/CommonLayoutStyle';
 import Photo from '@components/Photo';
+import Footer from './Footer';
 
 const Layout = () => {
   return (
     <MainLayoutStyle>
       <WraaperBoxStyle>
         <Photo />
-        <FooterStyle>
-          <FooterTitleStyle>🎵Happy Poto Time🎵</FooterTitleStyle>
-          <FooterDateStyle>📸2023.2.08📸</FooterDateStyle>
-        </FooterStyle>
+        <Footer />
       </WraaperBoxStyle>
     </MainLayoutStyle>
   );

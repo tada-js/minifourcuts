@@ -2,7 +2,7 @@ import {
   PhotoFrameStyle,
   PhotoImageStyle,
   PhotosStyle,
-} from '@styles/LayoutStyle';
+} from '@styles/PhotoLayoutStyle';
 import firstImg from '@assets/img1.png';
 import secondImg from '@assets/img2.png';
 import thirdImg from '@assets/img3.png';
