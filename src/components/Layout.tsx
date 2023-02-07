@@ -1,10 +1,12 @@
-import { ReactNode } from 'react';
-import { MainLayoutStyle, WraaperBoxStyle } from '../styles/LayoutStyle';
+import { MainLayoutStyle, WraaperBoxStyle } from '@styles/LayoutStyle';
+import Photo from '@components/Photo';
 
-const Layout = ({ children }: { children: ReactNode }) => {
+const Layout = () => {
   return (
     <MainLayoutStyle>
-      <WraaperBoxStyle>{children}</WraaperBoxStyle>
+      <WraaperBoxStyle>
+        <Photo />
+      </WraaperBoxStyle>
     </MainLayoutStyle>
   );
 };
