@@ -1,15 +1,25 @@
-import { MainLayoutStyle, WraaperBoxStyle } from '@styles/CommonLayoutStyle';
+import {
+  ChangeBoxStyle,
+  MainLayoutStyle,
+  WraaperBoxStyle,
+} from '@styles/CommonLayoutStyle';
 import Photo from '@components/Photo';
 import Footer from './Footer';
+import Button from './Button';
 
 const Layout = () => {
   return (
-    <MainLayoutStyle>
-      <WraaperBoxStyle>
-        <Photo />
-        <Footer />
-      </WraaperBoxStyle>
-    </MainLayoutStyle>
+    <>
+      <ChangeBoxStyle>
+        <Button />
+      </ChangeBoxStyle>
+      <MainLayoutStyle>
+        <WraaperBoxStyle>
+          <Photo />
+          <Footer />
+        </WraaperBoxStyle>
+      </MainLayoutStyle>
+    </>
   );
 };
 export default Layout;
