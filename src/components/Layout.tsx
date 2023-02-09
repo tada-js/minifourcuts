@@ -1,7 +1,7 @@
 import {
   ChangeBoxStyle,
   MainLayoutStyle,
-  WraaperBoxStyle,
+  WrapperBoxStyle,
 } from '@styles/CommonLayoutStyle';
 import Photo from '@components/Photo';
 import Footer from './Footer';
@@ -14,10 +14,10 @@ const Layout = () => {
         <Button />
       </ChangeBoxStyle>
       <MainLayoutStyle>
-        <WraaperBoxStyle>
+        <WrapperBoxStyle>
           <Photo />
           <Footer />
-        </WraaperBoxStyle>
+        </WrapperBoxStyle>
       </MainLayoutStyle>
     </>
   );

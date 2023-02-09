@@ -7,7 +7,7 @@ export const MainLayoutStyle = styled.main`
   justify-content: center;
 `;
 
-export const WraaperBoxStyle = styled.div`
+export const WrapperBoxStyle = styled.div`
   max-width: 390px;
   width: 100%;
   box-shadow: 3px 3px rgba(155, 155, 155, 0.1), -4px 0 10px rgba(0, 0, 0, 0.2);
